@@ -1,32 +1,43 @@
-.App {
+h1{
   text-align: center;
+  margin: 5px auto;   
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  color:red; 
+  font-size: 300%;
+    text-shadow: 2px 2px 2px #000000;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+img{
+/*  position: fixed;
+  left: 100px;
+  top: 100px;*/
+  width: 180px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.game-board, .game-info {  
+  margin: 0 50px; 
+  display: inline-block;
+}
+
+.game {
+  width: 100%;  
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column; 
 }
 
-.App-link {
-  color: #61dafb;
+.main-field { 
+  margin: 0 auto;
+  text-align: center;    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+
+
+
+
+
+
